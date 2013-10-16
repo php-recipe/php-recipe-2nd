@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="sample">
+	<table_structure name="example">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="language" Type="varchar(10)" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="example" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="5" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="example" Engine="MyISAM" Version="10" Row_format="Dynamic" Rows="5" Avg_row_length="20" Data_length="100" Max_data_length="281474976710655" Index_length="2048" Data_free="0" Auto_increment="6" Create_time="2013-05-14 07:14:09" Update_time="2013-05-14 07:14:09" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="example">
+	<row>
+		<field name="id">1</field>
+		<field name="language">PHP</field>
+	</row>
+	<row>
+		<field name="id">2</field>
+		<field name="language">Java</field>
+	</row>
+	<row>
+		<field name="id">3</field>
+		<field name="language">Ruby</field>
+	</row>
+	<row>
+		<field name="id">4</field>
+		<field name="language">Python</field>
+	</row>
+	<row>
+		<field name="id">5</field>
+		<field name="language">Perl</field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>

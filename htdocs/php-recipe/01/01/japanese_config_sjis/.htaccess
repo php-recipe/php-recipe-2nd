@@ -1,0 +1,6 @@
+php_value output_handler mb_output_handler
+php_value mbstring.language Japanese
+php_value mbstring.internal_encoding UTF-8
+php_value mbstring.http_input SJIS
+php_value mbstring.http_output SJIS
+php_flag mbstring.encoding_translation On

@@ -1,0 +1,3 @@
+php_flag  default_charset Shift_JIS
+php_flag  mbstring.internal_encoding SJIS
+php_value magic_quotes_gpc On

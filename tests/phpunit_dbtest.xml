@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit>
+  <php>
+    <const name="DB_DSN"
+      value="mysql:host=127.0.0.1;dbname=sample_test;charset=utf8" />
+    <const name="DB_USERNAME" value="user" />
+    <const name="DB_PASSWORD" value="password" />
+  </php>
+</phpunit>

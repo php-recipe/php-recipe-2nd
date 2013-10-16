@@ -1,0 +1,15 @@
+table.calendar {
+  border-collapse: separate;
+  border: 2px solid #FF0099;
+}
+table.calendar th,
+table.calendar td {
+  text-align: center;
+  border: 1px dotted #FF33CC;
+}
+.sunday {
+  background-color: #FFC0C0;
+}
+.saturday {
+  background-color: #C0C0FF;
+}

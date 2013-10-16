@@ -1,0 +1,18 @@
+table {
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #666;
+  padding: 3px;
+}
+
+/* 04/06/line_chart.php */
+/* 04/06/pie_chart.php */
+#chart1, #chart2 {
+  float: left;
+}
+
+/* 03/04/dump_array.php */
+.vtop {
+  vertical-align: top;
+}
